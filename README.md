@@ -19,6 +19,7 @@ Modify from GMMK Pro Standard Layout for macOS by zvuc.
 * F11 - Next Track
 * F12 - None
 * Caps Lock toggle indicator (Caps Lock key and side lights will turn white)
+* VIA Enabled
 
 ![Screenshot](image/GMMK_PRO.png)
 

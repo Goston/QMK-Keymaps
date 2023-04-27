@@ -1,5 +1,5 @@
 # QMK-Keymaps
 
-My QMK keymaps for:
+My QMK firmware for macOS Keymaps:
 
 - GMMK Pro

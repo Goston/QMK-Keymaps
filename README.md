@@ -15,7 +15,7 @@ Modify from GMMK Pro Standard Layout for macOS by zvuc.
 * F7 - None
 * F8 - None
 * F9 - Previous Track
-* F10 - Play/Pause Track
+* F10 - Play / Pause Track
 * F11 - Next Track
 * F12 - None
 * Caps Lock toggle indicator (Caps Lock key and side lights will turn white)

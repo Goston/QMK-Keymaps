@@ -67,7 +67,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   // Since this is, among other things, a "gaming" keyboard, a key combination to enable NKRO on the fly is provided for convenience.
   // Press Fn+N to toggle between 6KRO and NKRO. This setting is persisted to the EEPROM and thus persists between restarts.
   [0] = LAYOUT(
-    KC_ESC,  KC_BRID, KC_BRIU, KC_MCTL,    KC_F4,   RGB_VAD, RGB_VAI, KC_F7,   KC_F8,   KC_MRWD, KC_MPLY, KC_MFFD, KC_F12,  KC_DEL,           KC_MUTE,
+    KC_ESC,  KC_BRID, KC_BRIU, KC_MCTL,    KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_MRWD, KC_MPLY, KC_MFFD, KC_F12,  KC_DEL,           KC_MUTE,
     KC_GRV,  KC_1,    KC_2,    KC_3,       KC_4,    KC_5,    KC_6,    KC_7,    KC_8,    KC_9,    KC_0,    KC_MINS, KC_EQL,  KC_BSPC,          KC_HOME,
     KC_TAB,  KC_Q,    KC_W,    KC_E,       KC_R,    KC_T,    KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,    KC_LBRC, KC_RBRC, KC_BSLS,          KC_PGUP,
     KC_CAPS, KC_A,    KC_S,    KC_D,       KC_F,    KC_G,    KC_H,    KC_J,    KC_K,    KC_L,    KC_SCLN, KC_QUOT,          KC_ENT,           KC_PGDN,
@@ -409,10 +409,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   #endif // RGB_CONFIRMATION_BLINKING_TIME > 0
 
   static void set_rgb_caps_leds(void) {
-    rgb_matrix_set_color(67, 0xFF, 0xFF, 0xFF); // Left side LED 1
-    rgb_matrix_set_color(68, 0xFF, 0xFF, 0xFF); // Right side LED 1
-    rgb_matrix_set_color(70, 0xFF, 0xFF, 0xFF); // Left side LED 2
-    rgb_matrix_set_color(71, 0xFF, 0xFF, 0xFF); // Right side LED 2
+    rgb_matrix_set_color(67, 0x00, 0xD7, 0xEF); // Left side LED 1
+    rgb_matrix_set_color(68, 0x00, 0xD7, 0xEF); // Right side LED 1
+    rgb_matrix_set_color(70, 0x70, 0xF0, 0xFE); // Left side LED 2
+    rgb_matrix_set_color(71, 0x70, 0xF0, 0xFE); // Right side LED 2
     rgb_matrix_set_color(73, 0xFF, 0xFF, 0xFF); // Left side LED 3
     rgb_matrix_set_color(74, 0xFF, 0xFF, 0xFF); // Right side LED 3
     rgb_matrix_set_color(76, 0xFF, 0xFF, 0xFF); // Left side LED 4
@@ -421,10 +421,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     rgb_matrix_set_color(81, 0xFF, 0xFF, 0xFF); // Right side LED 5
     rgb_matrix_set_color(83, 0xFF, 0xFF, 0xFF); // Left side LED 6
     rgb_matrix_set_color(84, 0xFF, 0xFF, 0xFF); // Right side LED 6
-    rgb_matrix_set_color(87, 0xFF, 0xFF, 0xFF); // Left side LED 7
-    rgb_matrix_set_color(88, 0xFF, 0xFF, 0xFF); // Right side LED 7
-    rgb_matrix_set_color(91, 0xFF, 0xFF, 0xFF); // Left side LED 8
-    rgb_matrix_set_color(92, 0xFF, 0xFF, 0xFF); // Right side LED 8
+    rgb_matrix_set_color(87, 0x70, 0xF0, 0xFE); // Left side LED 7
+    rgb_matrix_set_color(88, 0x70, 0xF0, 0xFE); // Right side LED 7
+    rgb_matrix_set_color(91, 0x00, 0xD7, 0xEF); // Left side LED 8
+    rgb_matrix_set_color(92, 0x00, 0xD7, 0xEF); // Right side LED 8
     rgb_matrix_set_color(3, 0xFF, 0xFF, 0xFF); // CAPS LED
   }
 

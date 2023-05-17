@@ -9,7 +9,7 @@ Modify from GMMK Pro Standard Layout for macOS by zvuc.
 * F1 - Monitor Bright Up
 * F2 - Monitor Bright Down
 * F3 - Mission Control
-* F4 - None
+* F4 - Launchpad
 * F5 - None
 * F6 - None
 * F7 - None
